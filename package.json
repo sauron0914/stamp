@@ -1,5 +1,5 @@
 {
-  "name": "CAReview",
+  "name": "ca-review",
   "version": "1.0.0",
   "description": "CAReview",
   "main": "./lib/umd/index.js",
@@ -80,7 +80,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,ts}": [
+    "**/*.{js,ts,tsx}": [
       "eslint --fix",
       "git update-index --again"
     ],
