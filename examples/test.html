@@ -4,20 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ModuleName</title>
- 
+  <style>
+    #img {
+      width: 200px
+    }
+  </style>
 </head>
 <body>
 <div id="can"></div>
+<img src="" id='img' alt="">
 <script src="../lib/umd/index.js"></script>
 <script>
 var module = document.getElementById('module')
 // do something ...
-console.log('createCanvasDom', CAReview)
-CAReview({
+
+const res = CAReview({
   companyName: '你好读啊东阿很大公司',
       taxNo: '16314916391931',
       id:'can',
 })
+document.getElementById('img').setAttribute('src', res)
 </script>
 </body>
 </html>

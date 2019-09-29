@@ -1,9 +1,8 @@
 interface CreateCanvasDomParams {
   companyName: string
   taxNo: string
-  id: string
   sealNo?: string
 }
-declare const createCanvasDom: (params: CreateCanvasDomParams) => void
+declare const createCanvasDom: (params: CreateCanvasDomParams) => string
 
 export default createCanvasDom
