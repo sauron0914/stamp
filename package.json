@@ -1,5 +1,5 @@
 {
-  "name": "ca-review",
+  "name": "@auraxy/ca-review",
   "version": "1.0.1",
   "description": "CAReview",
   "main": "./lib/umd/index.js",

@@ -9,7 +9,7 @@ import createSeal from './createSeal'
  *
  * @return {*} base64
  */
-interface CreateCanvasDomParams {
+export interface CreateCanvasDomParams {
   companyName: string
   taxNo: string
   sealNo?: string
