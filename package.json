@@ -1,6 +1,6 @@
 {
-  "name": "@auraxy/ca-review",
-  "version": "1.0.1",
+  "name": "@suolun/stamp",
+  "version": "1.0.0",
   "description": "CAReview",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
