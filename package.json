@@ -1,7 +1,7 @@
 {
   "name": "@suolun/stamp",
-  "version": "1.0.0",
-  "description": "CAReview",
+  "version": "1.0.1",
+  "description": "stamp",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
   "unpkg": "./lib/umd/index.js",
@@ -22,7 +22,7 @@
     "url": ""
   },
   "keywords": [
-    "CARview"
+    "stamp 椭圆 印章"
   ],
   "author": "",
   "license": "MIT",
