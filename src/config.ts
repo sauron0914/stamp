@@ -8,4 +8,4 @@ export const circleXRadius = width / 2
 export const circleYRadius = height / 2
 export const circleCenterX = circleXRadius + border
 export const circleCenterY = circleYRadius + border
-export const ratio = 4
+export const ratio = 2

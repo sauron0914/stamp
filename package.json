@@ -1,6 +1,6 @@
 {
   "name": "@suolun/stamp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "stamp",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",

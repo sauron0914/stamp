@@ -11,7 +11,6 @@
   </style>
 </head>
 <body>
-<div id="can"></div>
 <img src="" id='img' alt="">
 <script src="../lib/umd/index.js"></script>
 <script>
@@ -19,9 +18,9 @@ var module = document.getElementById('module')
 // do something ...
 
 const res = CAReview({
-  companyName: '你好读啊东阿很大公司',
+    companyName: '你好读啊东阿很大公司',
       taxNo: '16314916391931',
-      id:'can',
+      ratio: 2
 })
 document.getElementById('img').setAttribute('src', res)
 </script>
